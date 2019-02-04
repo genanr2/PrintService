@@ -1,0 +1,1045 @@
+﻿Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется откат для сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb...
+Служба ServiceGleb успешно установлена.
+Создается исходный EventLog ServiceGleb в журнале Application...
+Выполняется откат для сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Восстанавливается исходное состояние журнала событий для источника ServiceGleb.
+Выполняется удаление службы ServiceGleb из системы...
+Служба ServiceGleb успешно удалена из системы.
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb.
+При выполнении программы установки System.Diagnostics.EventLogInstaller во время установки возникло исключение.
+System.InvalidOperationException: Источник 'ServiceGleb' журнала событий не может быть удален, поскольку совпадает с именем самого журнала.
+При удалении из системы возникло исключение. Это исключение будет проигнорировано, и удаление из системы будет продолжено. Однако после завершения удаления данное приложение может оказаться не полностью удаленным.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb...
+Служба ServiceGleb успешно установлена.
+Создается исходный EventLog ServiceGleb в журнале Application...
+Выполняется откат для сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Восстанавливается исходное состояние журнала событий для источника ServiceGleb.
+Выполняется удаление службы ServiceGleb из системы...
+Служба ServiceGleb успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Предупреждение. Источник ServiceGleb1 не зарегистрирован на локальном компьютере.
+Выполняется удаление службы ServiceGleb1 из системы...
+При выполнении программы установки System.ServiceProcess.ServiceInstaller во время установки возникло исключение.
+System.ComponentModel.Win32Exception: Указанная служба не установлена
+При удалении из системы возникло исключение. Это исключение будет проигнорировано, и удаление из системы будет продолжено. Однако после завершения удаления данное приложение может оказаться не полностью удаленным.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется откат для сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Восстанавливается исходное состояние журнала событий для источника ServiceGleb1.
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется откат для сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Восстанавливается исходное состояние журнала событий для источника ServiceGleb1.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Попытка останова службы ServiceGleb1.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'G:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = G:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = G:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Предупреждение. Источник ServiceGleb1 не зарегистрирован на локальном компьютере.
+Выполняется удаление службы ServiceGleb1 из системы...
+При выполнении программы установки System.ServiceProcess.ServiceInstaller во время установки возникло исключение.
+System.ComponentModel.Win32Exception: Указанная служба не установлена
+При удалении из системы возникло исключение. Это исключение будет проигнорировано, и удаление из системы будет продолжено. Однако после завершения удаления данное приложение может оказаться не полностью удаленным.
+Выполняется установка сборки 'G:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = G:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = G:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'G:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = G:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = G:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Попытка останова службы ServiceGleb1.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Попытка останова службы ServiceGleb1.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Попытка останова службы ServiceGleb1.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Выполняется удаление источника EventLog ServiceGleb1.
+Выполняется удаление службы ServiceGleb1 из системы...
+Служба ServiceGleb1 успешно удалена из системы.
+Выполняется установка сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
+Устанавливается служба ServiceGleb1...
+Служба ServiceGleb1 успешно установлена.
+Создается исходный EventLog ServiceGleb1 в журнале Application...
+Выполняется фиксация сборки 'H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.InstallLog
+   assemblypath = H:\Kruzhka\Gleb\WindowsService3\WindowsService3\bin\Debug\WindowsService3.exe
