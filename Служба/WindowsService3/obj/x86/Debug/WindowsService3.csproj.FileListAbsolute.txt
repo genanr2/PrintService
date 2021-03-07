@@ -16,11 +16,3 @@ G:\Kruzhka\Gleb\WindowsService3\WindowsService3\obj\x86\Debug\WindowsService3.Pr
 G:\Kruzhka\Gleb\WindowsService3\WindowsService3\obj\x86\Debug\WindowsService3.Service1.resources
 G:\Kruzhka\Gleb\WindowsService3\WindowsService3\obj\x86\Debug\GenerateResource.read.1.tlog
 G:\Kruzhka\Gleb\WindowsService3\WindowsService3\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Repos50\GetHub\PrintService\Служба\WindowsService3\bin\Debug\WindowsService3.exe
-C:\Repos50\GetHub\PrintService\Служба\WindowsService3\obj\x86\Debug\WindowsService3.ProjectInstaller.resources
-C:\Repos50\GetHub\PrintService\Служба\WindowsService3\obj\x86\Debug\WindowsService3.Service1.resources
-C:\Repos50\GetHub\PrintService\Служба\WindowsService3\obj\x86\Debug\WindowsService3.csproj.GenerateResource.cache
-C:\Repos50\GetHub\PrintService\Служба\WindowsService3\obj\x86\Debug\WindowsService3.csproj.CoreCompileInputs.cache
-C:\Repos50\GetHub\PrintService\Служба\WindowsService3\obj\x86\Debug\WindowsService3.exe
-C:\Repos50\GetHub\PrintService\Служба\WindowsService3\obj\x86\Debug\WindowsService3.pdb
-C:\Repos50\GetHub\PrintService\Служба\WindowsService3\bin\Debug\WindowsService3.pdb

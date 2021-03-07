@@ -34,12 +34,3 @@ D:\Kruzhka\Gleb\Gleb\25.05.2012\WindowsFormsApplication1\WindowsFormsApplication
 D:\Kruzhka\Gleb\Gleb\25.05.2012\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.CoreCompileInputs.cache
 D:\Kruzhka\Gleb\Gleb\25.05.2012\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
 D:\Kruzhka\Gleb\Gleb\25.05.2012\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
-C:\Repos50\GetHub\PrintService\Управление\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
-C:\Repos50\GetHub\PrintService\Управление\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
-C:\Repos50\GetHub\PrintService\Управление\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.PrintServerLink.resources
-C:\Repos50\GetHub\PrintService\Управление\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
-C:\Repos50\GetHub\PrintService\Управление\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.cache
-C:\Repos50\GetHub\PrintService\Управление\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
-C:\Repos50\GetHub\PrintService\Управление\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
-C:\Repos50\GetHub\PrintService\Управление\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csprojAssemblyReference.cache
-C:\Repos50\GetHub\PrintService\Управление\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.CoreCompileInputs.cache
