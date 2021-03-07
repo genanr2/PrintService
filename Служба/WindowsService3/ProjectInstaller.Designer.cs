@@ -41,7 +41,7 @@
       // serviceInstaller1
       // 
       this.serviceInstaller1.DelayedAutoStart = true;
-      this.serviceInstaller1.ServiceName = "ServiceGleb1";
+      this.serviceInstaller1.ServiceName = "ServiceGleb2";
       this.serviceInstaller1.AfterInstall += new System.Configuration.Install.InstallEventHandler(this.serviceInstaller1_AfterInstall);
       // 
       // ProjectInstaller

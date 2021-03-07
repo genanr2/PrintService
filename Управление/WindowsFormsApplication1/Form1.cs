@@ -35,35 +35,72 @@ namespace WindowsFormsApplication1
     private void SendButton_Click(object sender, EventArgs e)
     {
 //        Connect("server2", "Всем привет!!!");
-        Connect("192.168.1.120", "Всем привет!!!");
+        Connect("192.168.1.122", "Всем привет!!!");
     }
-        void printMessage(NetworkStream str1)
+    void printMessage(NetworkStream str1)
     {
-      try
-      {
-        streamToPrint = new StreamReader("C:\\aaa.txt");
-//        streamToPrint = str1;
+        EventLog myLog = new EventLog();
+       try
+       {
+        myLog.Source = "Печать заявок";
+        myLog.WriteEntry("Печать на принтер 1.", EventLogEntryType.Warning, 1, 1);
+        streamToPrint = new StreamReader("C:\\CDrive.txt");
+        myLog.WriteEntry("Печать на принтер2.", EventLogEntryType.Warning, 1, 1);
+        //        streamToPrint = str1;
         try
         {
-          printFont = new Font("Arial", 10);
-          PrintDocument pd = new PrintDocument();
-//          pd.PrintPage += new PrintPageEventHandler(this.pd_PrintPage);pd.Print();
+            printFont = new Font("Arial", 10);
+            PrintDocument pd = new PrintDocument();
+            //pd.PrintPage += new PrintPageEventHandler(this.pd_PrintPage);
+            PrintPageEventHandler eh = new PrintPageEventHandler(pd_PrintPage);
+            //pd.PrintPage += new PrintPageEventHandler(pd_PrintPage);
+            pd.PrintPage += eh;
+
+
+            myLog.WriteEntry("PrintPageEventHandler: " + eh.ToString(), EventLogEntryType.Warning, 1, 1);
+            myLog.WriteEntry("Печать на принтер 3: " + pd.DocumentName, EventLogEntryType.Warning, 1, 1);
+                    //            pd.Print();
+            pd.PrintController = new PrintControllerWithStatusDialog(pd.PrintController);
+            myLog.WriteEntry("PrinterName: " + pd.PrinterSettings.PrinterName, EventLogEntryType.Warning, 1, 1);
+            myLog.WriteEntry("PrintFileName: " + pd.PrinterSettings.PrintFileName, EventLogEntryType.Warning, 1, 1);
+            myLog.WriteEntry("PrintToFile? " + pd.PrinterSettings.PrintToFile, EventLogEntryType.Warning, 1, 1);
+            myLog.WriteEntry("PrinterSettings: " + pd.PrinterSettings.ToString(), EventLogEntryType.Warning, 1, 1);
+            try
+            {
+                //							pd.Print();
+                PrintEventArgs ev = new PrintEventArgs();
+                //ev.PrintAction = PrintAction.PrintToFile;
+                pd.PrintController.OnStartPrint(pd, ev);
+                //pd.Print();
+                //pd.PrintController
+            }
+            catch (Exception ex)
+            {
+                myLog.WriteEntry("Ошибка начала печати: " + ex.Message, EventLogEntryType.Error, 1, 1);
+            }
+            myLog.WriteEntry("Печать на принтер4.", EventLogEntryType.Warning, 1, 1);
         }
         finally { streamToPrint.Close(); }
       }
-      catch (Exception ex) {/*MessageBox.Show(ex.Message);*/}
-    }
+      catch (Exception ex) 
+      {/*MessageBox.Show(ex.Message);*/
+        myLog.WriteEntry("Ошибка печати: " + ex.Message, EventLogEntryType.Error, 1, 1);
 
-    void Connect(String server, String message)
+      }
+        myLog.WriteEntry("Конец печати printMessage");
+
+}
+
+        void Connect(String server, String message)
     {
-      Int32 port = 12000;
-      if (!EventLog.SourceExists("ServiceGleb"))
+      Int32 port = 12001;
+      if (!EventLog.SourceExists("ServiceGleb1"))
       {
         //An event log source should not be created and immediately used.
         //There is a latency time to enable the source, it should be created
         //prior to executing the application that uses the source.
         //Execute this sample a second time to use the new source.
-        EventLog.CreateEventSource("Печать заявок", "ServiceGleb");
+        EventLog.CreateEventSource("Печать заявок", "ServiceGleb1");
         // The source is created.  Exit the application to allow it to be registered.
         //              return;
       }
@@ -85,9 +122,10 @@ namespace WindowsFormsApplication1
             if (SendMessage.Text != "")
             {
               client = new TcpClient(ServerName.Text, Convert.ToInt32(PortName.Text));
+//                client = new TcpClient("Win2016", 12001);
             // Translate the passed message into ASCII and store it as a Byte array.
-//            data = System.Text.Encoding.Unicode.GetBytes(message);
-              data = System.Text.Encoding.UTF8.GetBytes(SendMessage.Text);
+            //            data = System.Text.Encoding.Unicode.GetBytes(message);
+            data = System.Text.Encoding.UTF8.GetBytes(SendMessage.Text);
             // Get a client stream for reading and writing. Stream stream = client.GetStream();
             stream = client.GetStream();
             // Send the message to the connected TcpServer. 
