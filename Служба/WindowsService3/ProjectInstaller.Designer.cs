@@ -28,33 +28,35 @@
     /// </summary>
     private void InitializeComponent()
     {
-      this.serviceProcessInstaller1 = new System.ServiceProcess.ServiceProcessInstaller();
-      this.serviceInstaller1 = new System.ServiceProcess.ServiceInstaller();
-      // 
-      // serviceProcessInstaller1
-      // 
-      this.serviceProcessInstaller1.Account = System.ServiceProcess.ServiceAccount.NetworkService;
-      this.serviceProcessInstaller1.Password = null;
-      this.serviceProcessInstaller1.Username = null;
-      this.serviceProcessInstaller1.AfterInstall += new System.Configuration.Install.InstallEventHandler(this.serviceProcessInstaller1_AfterInstall);
-      // 
-      // serviceInstaller1
-      // 
-      this.serviceInstaller1.DelayedAutoStart = true;
-      this.serviceInstaller1.ServiceName = "ServiceGleb1";
-      this.serviceInstaller1.AfterInstall += new System.Configuration.Install.InstallEventHandler(this.serviceInstaller1_AfterInstall);
-      // 
-      // ProjectInstaller
-      // 
-      this.Installers.AddRange(new System.Configuration.Install.Installer[] {
+			this.serviceProcessInstaller1 = new System.ServiceProcess.ServiceProcessInstaller();
+			this.ServiceGleb1 = new System.ServiceProcess.ServiceInstaller();
+			// 
+			// serviceProcessInstaller1
+			// 
+			this.serviceProcessInstaller1.Account = System.ServiceProcess.ServiceAccount.LocalSystem;
+			this.serviceProcessInstaller1.Password = null;
+			this.serviceProcessInstaller1.Username = null;
+			this.serviceProcessInstaller1.AfterInstall += new System.Configuration.Install.InstallEventHandler(this.serviceProcessInstaller1_AfterInstall);
+			// 
+			// ServiceGleb1
+			// 
+			this.ServiceGleb1.DelayedAutoStart = true;
+			this.ServiceGleb1.Description = "Вывод заявок на печать";
+			this.ServiceGleb1.DisplayName = "ServiceGleb";
+			this.ServiceGleb1.ServiceName = "ServiceGleb1";
+			this.ServiceGleb1.AfterInstall += new System.Configuration.Install.InstallEventHandler(this.serviceInstaller1_AfterInstall);
+			// 
+			// ProjectInstaller
+			// 
+			this.Installers.AddRange(new System.Configuration.Install.Installer[] {
             this.serviceProcessInstaller1,
-            this.serviceInstaller1});
+            this.ServiceGleb1});
 
     }
 
     #endregion
 
     private System.ServiceProcess.ServiceProcessInstaller serviceProcessInstaller1;
-    private System.ServiceProcess.ServiceInstaller serviceInstaller1;
+    private System.ServiceProcess.ServiceInstaller ServiceGleb1;
   }
 }

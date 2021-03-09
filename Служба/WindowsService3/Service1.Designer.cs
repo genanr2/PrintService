@@ -1,6 +1,6 @@
-﻿namespace WindowsService3
+﻿namespace ServiceGleb1
 {
-  partial class Service1
+	partial class ServiceGleb1
   {
     /// <summary> 
     /// Требуется переменная конструктора.

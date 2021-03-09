@@ -5,16 +5,19 @@ using System.ServiceProcess;
 using System.Text;
 using System.Diagnostics;
 using System.Threading;
-using System.IO;
+using System.Net.Sockets;using System.IO;
 using System.Net;
-using System.Net.Sockets;
+
 using System.Security.Cryptography;
 using System.Drawing;
 using System.Drawing.Printing;
-namespace WindowsService3
+using System.Data.Linq;
+using System.Windows.Forms;
+//using System.Drawing.Printing;
+//namespace WindowsService3
+
+namespace ServiceGleb1
 {
-//  namespace Service1
-//  {
     //  static class Program
     class Program
     {
@@ -22,103 +25,96 @@ namespace WindowsService3
       /// Главная точка входа для приложения.
       /// </summary>
       //    static void Main()
-      private Font printFont;
-      private StreamReader streamToPrint;
+      static private Font printFont;
+      static private StreamReader streamToPrint;
       static public NetworkStream stream;
       static public TcpListener server = null;
-      static void Main()
+			static public EventLog myLog;
+			static public Socket listenerSocket;
+			public static ManualResetEvent tcpClientConnected=new ManualResetEvent(false);
+      public static Int32 port;
+			static void Main()
       {
         ServiceBase[] ServicesToRun;
-        ServicesToRun = new ServiceBase[]
-			{ 
-				new Service1() 
-			};
-//        Service1 ss = WindowsService3.Service1;
-      ServiceBase.Run(ServicesToRun);
-//      ServicesToRun
-      if (!EventLog.SourceExists("ServiceGleb"))
-      {
-          //An event log source should not be created and immediately used.
-          //There is a latency time to enable the source, it should be created
-          //prior to executing the application that uses the source.
-          //Execute this sample a second time to use the new source.
-          EventLog.CreateEventSource("Печать заявок", "ServiceGleb");
-      }
-      EventLog myLog = new EventLog();
-      myLog.Source = "Печать заявок";
-      myLog.WriteEntry("Запуск службы.", EventLogEntryType.Warning, 1, 1);
-      try
-      {
-        // Set the TcpListener on port 13000.
-        Int32 port = 12000;
-//        IPAddress localAddr = IPAddress.Parse("127.0.0.1");
-//          IPAddress localAddr = IPAddress.Any;
+//        ServicesToRun = new ServiceBase[]{new Service1() };
+				ServicesToRun = new ServiceBase[] { new ServiceGleb1() };
+				//      Service1 ss = WindowsService3.Service1;
+				ServiceBase.Run(ServicesToRun);
+				if (!EventLog.SourceExists("ServiceGleb")){EventLog.CreateEventSource("Печать заявок", "ServiceGleb");}
+				myLog = new EventLog();myLog.Source = "Печать заявок";myLog.WriteEntry("Запуск службы.", EventLogEntryType.Warning, 1, 1);
+/*
+				try
+				{
+					// Set the TcpListener on port 13000.
+					port = 12000;
 //        IPAddress localAddr = IPAddress.Parse("192.168.1.8");
         IPAddress localAddr = IPAddress.Any;
-        // TcpListener server = new TcpListener(port);
+					// TcpListener server = new TcpListener(port);
           server = new TcpListener(localAddr, port);
+//					listenerSocket = server.Server;
+//					LingerOption lingerOption = new LingerOption(true, 10);listenerSocket.SetSocketOption(SocketOptionLevel.Socket,SocketOptionName.Linger,lingerOption);
           myLog.WriteEntry("Сервер прослушивания создан. IP: " + localAddr + " Порт: " + port, EventLogEntryType.Warning, 1, 1);
-          // Start listening for client requests.
           server.Start();
           myLog.WriteEntry("Сервер прослушивания запущен.", EventLogEntryType.Warning, 1, 1);
-          // Buffer for reading data
-          Byte[] bytes = new Byte[1024];
-          String data = null;
-          //        byte[] msg = null;
-          //        String msg = null;
+          Byte[] bytes = new Byte[1024];String data = null;
           TcpClient client;
-//          NetworkStream stream;
-//          PrintingExample prt = new PrintingExample();
-
-          // Enter the listening loop.
           while (true)
           {
-            myLog.WriteEntry("Сервер прослушивания ожидает соединение с клиентом.", EventLogEntryType.Warning, 1, 1);
+//            myLog.WriteEntry("Сервер прослушивания ожидает соединение с клиентом.", EventLogEntryType.Warning, 1, 1);
+            Application.DoEvents();
             // Perform a blocking call to accept requests. You could also user server.AcceptSocket() here.
-            client = server.AcceptTcpClient();
-            //          Socket socket = server.AcceptSocket();
-            myLog.WriteEntry("Соединено с клиентом.", EventLogEntryType.Warning, 1, 1);
-            //        data = null;
-            // Get a stream object for reading and writing
-            stream = client.GetStream();
-            client.ReceiveBufferSize = 2048;
-            int i;
-            while ((i = stream.Read(bytes, 0, bytes.Length)) != 0)
-            {
-              data = System.Text.Encoding.UTF8.GetString(bytes, 0, i);
-              myLog.WriteEntry("Получены сведения ." + data, EventLogEntryType.Warning, 1, 1);
-              data = data.ToUpper();
-              Byte[] msg = System.Text.Encoding.UTF8.GetBytes(data);
-              stream.Write(msg, 0, msg.Length);
-              myLog.WriteEntry("Отправлены сведения ." + data, EventLogEntryType.Warning, 1, 1);
-//              using (StreamWriter sw = new StreamWriter("c:\\CDriveDirs.txt"))
-//              {
-//                sw.Write("Заявка на пропуск\n");
-//                sw.Write(data);
-//              }
+						if (!server.Pending())
+						{
+//							myLog.WriteEntry("Нет никаких запросов на связь .", EventLogEntryType.Warning, 1, 1);
+						}
+						else
+						{
+							myLog.WriteEntry("Есть запрос на соединение.", EventLogEntryType.Warning, 1, 1);
+							client = server.AcceptTcpClient();
+							//Socket socket = server.AcceptSocket();
+							//DoBeginAcceptTcpClient(server);
+							myLog.WriteEntry("Соединено с клиентом.", EventLogEntryType.Warning, 1, 1);
+							myLog.WriteEntry("Слушаю соединение с ." + 
+										IPAddress.Parse(((IPEndPoint)server.LocalEndpoint).Address.ToString())+" по порту "+
+										((IPEndPoint)server.LocalEndpoint).Port.ToString(),EventLogEntryType.Warning, 1, 1);
+							stream = client.GetStream();
+							client.ReceiveBufferSize = 2048;
+							int i;
+							while ((i = stream.Read(bytes, 0, bytes.Length)) != 0)
+							{
+								data = System.Text.Encoding.UTF8.GetString(bytes, 0, i);
+								myLog.WriteEntry("Получены сведения ." + data, EventLogEntryType.Warning, 1, 1);
+								data = data.ToUpper();
+								Byte[] msg = System.Text.Encoding.UTF8.GetBytes(data);
+								stream.Write(msg, 0, msg.Length);
+								myLog.WriteEntry("Отправлены сведения ." + data, EventLogEntryType.Warning, 1, 1);
+								//using (StreamWriter sw = new StreamWriter("c:\\CDriveDirs.txt")){sw.Write("Заявка на пропуск\n");sw.Write(data);}
+								try
+								{
+									//string logFile = DateTime.Now.ToShortDateString().Replace(@"/", @"-").Replace(@"\", @"-") + ".log";
+									FileStream fs = null;
+									try
+									{
+										fs = new FileStream("c:\\CDrive.txt", FileMode.Create, FileAccess.Write, FileShare.None);
+									}
+									catch (Exception ex)
+									{
+										myLog.WriteEntry("Не могу создать файл c:\\CDrive.txt " + ex.Message, EventLogEntryType.Warning, 1, 1);
+									}
+									StreamWriter sw = new StreamWriter(fs);
+									try { sw.Write("Заявка на пропуск\n"); sw.Write(data); }finally { sw.Flush(); sw.Close(); }
+								}
+								catch (Exception ex)
+								{
+									myLog.WriteEntry("Не могу записать на диск. " + ex.Message, EventLogEntryType.Warning, 1, 1);
+								}
+								myLog.WriteEntry("Начало печати на принтер.", EventLogEntryType.Warning, 1, 1);
+								printMessage(stream);
+								myLog.WriteEntry("Конец печати на принтер.", EventLogEntryType.Warning, 1, 1);
+							}
+							stream.Flush();stream.Dispose();stream.Close();client.Close();
+						}
 
-              try
-              {
-                StreamWriter sw = new StreamWriter("c:\\CDriveDirs.txt");
-                //        streamToPrint = str1;
-                try
-                {
-                  sw.Write("Заявка на пропуск\n");
-                }
-                finally { sw.Flush();sw.Close(); }
-              }
-              catch (Exception ex) 
-              {
-                /*MessageBox.Show(ex.Message);*/
-                myLog.WriteEntry("Не могу записать на диск ." + ex.Message, EventLogEntryType.Warning, 1, 1);
-
-              }
-              //            socket.Send(msg);
-            }
-            stream.Flush();
-            stream.Dispose();
-            stream.Close();
-            client.Close();
           }
         }
         catch (SocketException e)
@@ -126,32 +122,98 @@ namespace WindowsService3
           //        Console.WriteLine("SocketException: {0}", e);
           myLog.WriteEntry("SocketException: " + e.Message, EventLogEntryType.Error, 1, 1);
         }
-        /*
-              finally
-              {
-                // Stop listening for new clients.
-                server.Stop();
-              }
-         */
-        //    Console.WriteLine("\nHit enter to continue...");
-        //      Console.Read();
+//        finally{server.Stop();}
+*/ 
        }
-      private void printMessage(NetworkStream streamToPrint)
+
+			public static void DoBeginAcceptTcpClient(TcpListener listener)
+			{
+				// Set the event to nonsignaled state.
+				myLog.WriteEntry("tcpClientConnected.Reset().", EventLogEntryType.Warning, 1, 1);
+				tcpClientConnected.Reset();
+				// Start to listen for connections from a client.
+//				Console.WriteLine("Waiting for a connection...");
+				// Accept the connection. BeginAcceptSocket() creates the accepted socket.
+				myLog.WriteEntry("BeginAcceptTcpClient.", EventLogEntryType.Warning, 1, 1);
+				listener.BeginAcceptTcpClient(new AsyncCallback(DoAcceptTcpClientCallback), listener);
+				// Wait until a connection is made and processed before continuing.
+				myLog.WriteEntry("tcpClientConnected.WaitOne().", EventLogEntryType.Warning, 1, 1);
+				tcpClientConnected.WaitOne();
+				myLog.WriteEntry("tcpClientConnected.WaitOne2().", EventLogEntryType.Warning, 1, 1);
+			}
+			// Process the client connection.
+			public static void DoAcceptTcpClientCallback(IAsyncResult ar)
+			{
+				// Get the listener that handles the client request.
+				TcpListener listener = (TcpListener)ar.AsyncState;
+				myLog.WriteEntry("(TcpListener)ar.AsyncState.", EventLogEntryType.Warning, 1, 1);
+				// End the operation and display the received data on the console.
+				TcpClient client = listener.EndAcceptTcpClient(ar);
+				// Process the connection here. (Add the client to a server table, read data, etc.)
+				myLog.WriteEntry("Client connected completed.", EventLogEntryType.Warning, 1, 1);
+//				Console.WriteLine("Client connected completed");
+				// Signal the calling thread to continue.
+				tcpClientConnected.Set();
+				myLog.WriteEntry("tcpClientConnected.Set().", EventLogEntryType.Warning, 1, 1);
+			}
+
+
+      static public void printMessage(NetworkStream str1)
       {
         try
         {
-//          streamToPrint = new StreamReader("C:\\My Documents\\MyFile.txt");
-          try
+//					myLog.WriteEntry("Печать на принтер1.", EventLogEntryType.Warning, 1, 1);
+					streamToPrint = new StreamReader("C:\\CDrive.txt");
+//					myLog.WriteEntry("Печать на принтер2.", EventLogEntryType.Warning, 1, 1);
+					try
           {
             printFont = new Font("Arial", 10);
             PrintDocument pd = new PrintDocument();
-            pd.PrintPage += new PrintPageEventHandler(this.pd_PrintPage);
-            pd.Print();
-          }
+						//listener.BeginAcceptTcpClient(new AsyncCallback(DoAcceptTcpClientCallback), listener);
+//						PrintPageEventHandler eh = new PrintPageEventHandler(pd_PrintPage);
+
+            
+            pd.PrintPage += new PrintPageEventHandler(pd_PrintPage);
+
+
+//						pd.PrintPage += eh;
+//						myLog.WriteEntry("PrintPageEventHandler: " + eh.ToString(), EventLogEntryType.Warning, 1, 1);
+//						myLog.WriteEntry("Печать на принтер3: " + pd.DocumentName, EventLogEntryType.Warning, 1, 1);
+//						pd.PrintController = new myControllerImplementation();
+//						if (wantsStatusDialog == true)
+//						{
+//						pd.PrintController=new PrintControllerWithStatusDialog(pd.PrintController);
+            //pd.PrinterSettings.PrinterName = "HP LaserJet P1505";
+            pd.PrinterSettings.PrinterName = "Xerox WC M123 PCL";
+						myLog.WriteEntry("PrinterName: " + pd.PrinterSettings.PrinterName, EventLogEntryType.Warning, 1, 1);
+//						myLog.WriteEntry("PrintFileName: " + pd.PrinterSettings.PrintFileName.ToString(), EventLogEntryType.Warning, 1, 1);
+//						myLog.WriteEntry("PrintToFile? " + pd.PrinterSettings.PrintToFile, EventLogEntryType.Warning, 1, 1);
+//						myLog.WriteEntry("PrinterSettings: " + pd.PrinterSettings.ToString(), EventLogEntryType.Warning, 1, 1);
+						try
+						{
+//							pd.Print();
+//							PrintEventArgs ev = new PrintEventArgs();
+//							ev.PrintAction = PrintAction.PrintToFile;
+//							pd.PrintController.OnStartPrint(pd, ev);
+							pd.Print();
+//							pd.PrintController
+						}
+						catch (Exception ex)
+						{
+							myLog.WriteEntry("Ошибка начала печати: " + ex.Message, EventLogEntryType.Error, 1, 1);
+						}
+//						myLog.WriteEntry("Печать на принтер4.", EventLogEntryType.Warning, 1, 1);
+					}
           finally { streamToPrint.Close(); }
-        }catch (Exception ex){/*MessageBox.Show(ex.Message);*/}
-      }
-      void pd_PrintPage(object sender, PrintPageEventArgs ev)
+        }
+				catch (Exception ex)
+				{/*MessageBox.Show(ex.Message);*/
+					myLog.WriteEntry("Ошибка печати: " + ex.Message, EventLogEntryType.Error, 1, 1);
+				}
+//				myLog.WriteEntry("Конец печати printMessage");
+
+			}
+      static public void pd_PrintPage(object sender, PrintPageEventArgs ev)
       {
         float linesPerPage = 0;
         float yPos = 0;
@@ -160,7 +222,8 @@ namespace WindowsService3
         float topMargin = ev.MarginBounds.Top;
         string line = null;
         // Calculate the number of lines per page.
-        linesPerPage = ev.MarginBounds.Height / printFont.GetHeight(ev.Graphics);
+				myLog.WriteEntry("Печать на принтер55.", EventLogEntryType.Warning, 1, 1);
+				linesPerPage = ev.MarginBounds.Height / printFont.GetHeight(ev.Graphics);
         // Print each line of the file.
         while (count < linesPerPage && ((line = streamToPrint.ReadLine()) != null))
         {
@@ -171,6 +234,7 @@ namespace WindowsService3
         // If more lines exist, print another page.
         if (line != null) ev.HasMorePages = true; else ev.HasMorePages = false;
       }
+ 
      }
 }
 

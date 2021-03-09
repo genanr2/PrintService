@@ -1,0 +1,39 @@
+﻿Installing assembly 'C:\Repos50\GetHub\PrintService\Служба\WindowsService3\obj\x86\Debug\WindowsService3.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Repos50\GetHub\PrintService\Служба\WindowsService3\obj\x86\Debug\WindowsService3.InstallLog
+   assemblypath = C:\Repos50\GetHub\PrintService\Служба\WindowsService3\obj\x86\Debug\WindowsService3.exe
+Installing service ServiceGleb1...
+Creating EventLog source ServiceGleb1 in log Application...
+Rolling back assembly 'C:\Repos50\GetHub\PrintService\Служба\WindowsService3\obj\x86\Debug\WindowsService3.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Repos50\GetHub\PrintService\Служба\WindowsService3\obj\x86\Debug\WindowsService3.InstallLog
+   assemblypath = C:\Repos50\GetHub\PrintService\Служба\WindowsService3\obj\x86\Debug\WindowsService3.exe
+Restoring event log to previous state for source ServiceGleb1.
+Installing assembly 'C:\Repos50\GetHub\PrintService\Служба\WindowsService3\obj\x86\Debug\WindowsService3.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Repos50\GetHub\PrintService\Служба\WindowsService3\obj\x86\Debug\WindowsService3.InstallLog
+   assemblypath = C:\Repos50\GetHub\PrintService\Служба\WindowsService3\obj\x86\Debug\WindowsService3.exe
+Installing service ServiceGleb1...
+Creating EventLog source ServiceGleb1 in log Application...
+Rolling back assembly 'C:\Repos50\GetHub\PrintService\Служба\WindowsService3\obj\x86\Debug\WindowsService3.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Repos50\GetHub\PrintService\Служба\WindowsService3\obj\x86\Debug\WindowsService3.InstallLog
+   assemblypath = C:\Repos50\GetHub\PrintService\Служба\WindowsService3\obj\x86\Debug\WindowsService3.exe
+Restoring event log to previous state for source ServiceGleb1.
+Installing assembly 'C:\Repos50\GetHub\PrintService\Служба\WindowsService3\obj\x86\Debug\WindowsService3.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Repos50\GetHub\PrintService\Служба\WindowsService3\obj\x86\Debug\WindowsService3.InstallLog
+   assemblypath = C:\Repos50\GetHub\PrintService\Служба\WindowsService3\obj\x86\Debug\WindowsService3.exe
+Installing service ServiceGleb1...
+Service ServiceGleb1 has been successfully installed.
+Creating EventLog source ServiceGleb1 in log Application...
+Committing assembly 'C:\Repos50\GetHub\PrintService\Служба\WindowsService3\obj\x86\Debug\WindowsService3.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Repos50\GetHub\PrintService\Служба\WindowsService3\obj\x86\Debug\WindowsService3.InstallLog
+   assemblypath = C:\Repos50\GetHub\PrintService\Служба\WindowsService3\obj\x86\Debug\WindowsService3.exe
