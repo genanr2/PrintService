@@ -193,7 +193,7 @@ namespace ServiceGleb1
 			float topMargin = ev.MarginBounds.Top;
 			string line = null;
 			// Calculate the number of lines per page.
-			myLog.WriteEntry("Печать на принтер5.", EventLogEntryType.Warning, 1, 1);
+			myLog.WriteEntry("Печать на принтер 5.", EventLogEntryType.Warning, 1, 1);
 			linesPerPage = ev.MarginBounds.Height / printFont.GetHeight(ev.Graphics);
 			// Print each line of the file.
 			while (count < linesPerPage && ((line = streamToPrint.ReadLine()) != null))
