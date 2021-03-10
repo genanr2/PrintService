@@ -189,7 +189,7 @@ namespace ServiceGleb1
 			float linesPerPage = 0;
 			float yPos = 0;
 			int count = 0;
-			float leftMargin = ev.MarginBounds.Left;
+			float leftMargin = ev.MarginBounds.Left; 
 			float topMargin = ev.MarginBounds.Top;
 			string line = null;
 			// Calculate the number of lines per page.
